@@ -133,7 +133,7 @@ class printing(QMainWindow):
             if x != []:
                 self.ui.lineEdit_16.setText(x[0])
                 self.ui.lineEdit_15.setReadOnly(True)
-                pixmap = QtGui.QPixmap('/Users/Admin/Desktop/GUI/Student pics/16001.png')
+                pixmap = QtGui.QPixmap('./Student pics/16001.png')
                 self.ui.label_4.setPixmap(pixmap)
                 self.ui.label_4.show()
                 date = datetime.date.today()
@@ -276,7 +276,7 @@ class telecomm(QMainWindow):
                 self.ui.lineEdit_17.setReadOnly(True)
                 self.ui.lineEdit_20.setReadOnly(True)
                 self.ui.lineEdit_19.setReadOnly(True)
-                pixmap = QtGui.QPixmap('/Users/Admin/Desktop/GUI/Student pics/16001.png')
+                pixmap = QtGui.QPixmap('./Student pics/16001.png')
                 self.ui.label_4.setPixmap(pixmap)
                 self.ui.label_4.show()
                 date = datetime.date.today()
