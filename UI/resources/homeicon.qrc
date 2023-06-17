@@ -1,0 +1,25 @@
+<RCC>
+  <qresource prefix="home">
+    <file>minimize.png</file>
+    <file>front-of-bus.png</file>
+    <file>busChrg.png</file>
+    <file>otherchatges.png</file>
+    <file>news2.png</file>
+    <file>group.png</file>
+    <file>news.png</file>
+    <file>classChrgs.png</file>
+    <file>updatechrg.png</file>
+    <file>upload.png</file>
+    <file>updatechargsBg.png</file>
+    <file>depositBg.png</file>
+    <file>newuserBg.png</file>
+    <file>adminCtrBg.png</file>
+    <file>telecommBg.png</file>
+    <file>image.png</file>
+    <file>printBg.png</file>
+    <file>user.png</file>
+    <file>user (1).png</file>
+    <file>admin login.png</file>
+    <file>updateBg2.png</file>
+  </qresource>
+</RCC>

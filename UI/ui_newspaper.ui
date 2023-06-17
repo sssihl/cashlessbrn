@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>605</width>
+    <height>385</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>605</width>
+    <height>385</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>605</width>
+    <height>385</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>611</width>
+      <height>563</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:url(:/home/news2.png)</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>190</x>
+       <y>100</y>
+       <width>271</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+		color:rgb(71, 71, 71);
+		font: 22pt &quot;FONTSPRING DEMO - Grotesco Book &quot;;
+background:transparent;
+}</string>
+     </property>
+     <property name="text">
+      <string>New Paper Charges</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame_2">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>30</y>
+       <width>81</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:url(:/home/news.png)</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>210</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+		color:rgb(25, 25, 25);
+		font: 16pt &quot;FONTSPRING DEMO - Grotesco Book&quot;;
+background:transparent;
+}</string>
+     </property>
+     <property name="text">
+      <string> Paper :</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>220</x>
+       <y>440</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	color:White;
+    font: 500 12pt &quot;Segoe UI &quot;;
+	background:rgb(24, 22, 100);
+	border-radius:5px
+}
+
+QPushButton:hover
+{
+color:rgb(0, 0, 0);
+    
+	font: 500 12pt &quot;Segoe UI &quot;;
+border-radius:5px;
+background:white;
+}
+QPushButton:pressed {	
+	background-color: rgb(85, 170, 255);
+}</string>
+     </property>
+     <property name="text">
+      <string>Update</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>170</y>
+       <width>151</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+		color:rgb(25, 25, 25);
+		font: 16pt &quot;FONTSPRING DEMO - Grotesco Book&quot;;
+background:transparent;
+}</string>
+     </property>
+     <property name="text">
+      <string>   Room No. :</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="comboBox">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>170</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox{
+color:rgb(116, 116, 116);
+	background:WHITE;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+QComboBox:hover {
+	border: 2px solid rgb(64, 71, 88);
+}
+QComboBox:focus {
+	border: 2px solid rgb(91, 101, 124);
+}</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>A1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>A2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>A3</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>A4</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>A5</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>A6</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>A7</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>A8</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>B1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>B2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>B3</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>B4</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>B5</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>B6</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>B7</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>B8</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>C1</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>C2</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>C3</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>C4</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>C5</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>C6</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>C7</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>C8</string>
+      </property>
+     </item>
+    </widget>
+    <widget class="QComboBox" name="comboBox_2">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>300</x>
+       <y>210</y>
+       <width>131</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QComboBox{
+color:rgb(116, 116, 116);
+	background:WHITE;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+QComboBox:hover {
+	border: 2px solid rgb(64, 71, 88);
+}
+QComboBox:focus {
+	border: 2px solid rgb(91, 101, 124);
+}</string>
+     </property>
+     <item>
+      <property name="text">
+       <string>Hindu</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ET Only</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>ET with Wealth</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Hindu and ET only</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Hindu and ET With Wealth</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string/>
+      </property>
+     </item>
+    </widget>
+    <widget class="QPushButton" name="pushButton_6">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>280</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	color:White;
+    font: 500 12pt &quot;Segoe UI &quot;;
+	background:rgb(24, 22, 100);
+	border-radius:5px
+}
+
+QPushButton:hover
+{
+color:rgb(0, 0, 0);
+    
+	font: 500 12pt &quot;Segoe UI &quot;;
+border-radius:5px;
+background:white;
+}
+QPushButton:pressed {	
+	background-color: rgb(85, 170, 255);
+}</string>
+     </property>
+     <property name="text">
+      <string>Deduct</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources/homeicon.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>736</width>
+    <height>541</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QFrame" name="frame">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>738</width>
+      <height>543</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background:url(:/home/telecommBg.png)</string>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>530</x>
+       <y>110</y>
+       <width>81</width>
+       <height>81</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background:url(:/home/image.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_15">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>120</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+	background:WHITE;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+QLineEdit:hover {
+	border: 2px solid rgb(64, 71, 88);
+}
+QLineEdit:focus {
+	border: 2px solid rgb(91, 101, 124);
+}</string>
+     </property>
+     <property name="inputMask">
+      <string comment="D"/>
+     </property>
+     <property name="maxLength">
+      <number>32767</number>
+     </property>
+     <property name="cursorPosition">
+      <number>0</number>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="placeholderText">
+      <string>User ID</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_16">
+     <property name="geometry">
+      <rect>
+       <x>260</x>
+       <y>160</y>
+       <width>251</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+	background:WHITE;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+QLineEdit:hover {
+	border: 2px solid rgb(64, 71, 88);
+}
+QLineEdit:focus {
+	border: 2px solid rgb(91, 101, 124);
+}</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="placeholderText">
+      <string>Student Name</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_19">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>280</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+	background:WHITE;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+QLineEdit:hover {
+	border: 2px solid rgb(64, 71, 88);
+}
+QLineEdit:focus {
+	border: 2px solid rgb(91, 101, 124);
+}</string>
+     </property>
+     <property name="inputMask">
+      <string comment="D"/>
+     </property>
+     <property name="maxLength">
+      <number>32767</number>
+     </property>
+     <property name="cursorPosition">
+      <number>0</number>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="placeholderText">
+      <string>Telephone ID</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_20">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>320</y>
+       <width>111</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="autoFillBackground">
+      <bool>false</bool>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+	background:WHITE;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+QLineEdit:hover {
+	border: 2px solid rgb(64, 71, 88);
+}
+QLineEdit:focus {
+	border: 2px solid rgb(91, 101, 124);
+}</string>
+     </property>
+     <property name="inputMask">
+      <string/>
+     </property>
+     <property name="maxLength">
+      <number>32767</number>
+     </property>
+     <property name="echoMode">
+      <enum>QLineEdit::Password</enum>
+     </property>
+     <property name="cursorPosition">
+      <number>0</number>
+     </property>
+     <property name="readOnly">
+      <bool>false</bool>
+     </property>
+     <property name="placeholderText">
+      <string>Password</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_10">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>520</y>
+       <width>101</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+		color:rgb(85, 85, 85);
+		font: 9pt &quot;FONTSPRING DEMO - Grotesco Book&quot;;
+background:transparent;
+}</string>
+     </property>
+     <property name="text">
+      <string>Operated by:</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_17">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>360</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+	background:WHITE;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+QLineEdit:hover {
+	border: 2px solid rgb(64, 71, 88);
+}
+QLineEdit:focus {
+	border: 2px solid rgb(91, 101, 124);
+}</string>
+     </property>
+     <property name="readOnly">
+      <bool>true</bool>
+     </property>
+     <property name="placeholderText">
+      <string>Balance</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_18">
+     <property name="geometry">
+      <rect>
+       <x>390</x>
+       <y>400</y>
+       <width>81</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Segoe UI</family>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLineEdit {
+	background:WHITE;
+	border-radius: 5px;
+	padding-left: 10px;
+}
+QLineEdit:hover {
+	border: 2px solid rgb(64, 71, 88);
+}
+QLineEdit:focus {
+	border: 2px solid rgb(91, 101, 124);
+}</string>
+     </property>
+     <property name="placeholderText">
+      <string>Amt</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="pushButton_5">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>450</y>
+       <width>151</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="cursor">
+      <cursorShape>PointingHandCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QPushButton{
+	color:White;
+    font: 500 12pt &quot;Segoe UI &quot;;
+	background:rgb(24, 22, 100);
+	border-radius:5px
+}
+
+QPushButton:hover
+{
+color:rgb(0, 0, 0);
+    
+	font: 500 12pt &quot;Segoe UI &quot;;
+border-radius:5px;
+background:white;
+}
+QPushButton:pressed {	
+	background-color: rgb(85, 170, 255);
+}</string>
+     </property>
+     <property name="text">
+      <string>DEDUCT</string>
+     </property>
+     <property name="autoDefault">
+      <bool>false</bool>
+     </property>
+     <property name="default">
+      <bool>false</bool>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>160</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+		color:rgb(25, 25, 25);
+		font: 16pt &quot;FONTSPRING DEMO - Grotesco Book&quot;;
+background:transparent;
+}</string>
+     </property>
+     <property name="text">
+      <string>Student Name :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_7">
+     <property name="geometry">
+      <rect>
+       <x>270</x>
+       <y>320</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+		color:rgb(25, 25, 25);
+		font: 15pt &quot;FONTSPRING DEMO - Grotesco Book&quot;;
+background:transparent;
+}</string>
+     </property>
+     <property name="text">
+      <string>Password :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_8">
+     <property name="geometry">
+      <rect>
+       <x>210</x>
+       <y>360</y>
+       <width>161</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+		color:rgb(25, 25, 25);
+		font: 15pt &quot;FONTSPRING DEMO - Grotesco Book&quot;;
+background:transparent;
+}</string>
+     </property>
+     <property name="text">
+      <string> Current Balance :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>160</x>
+       <y>120</y>
+       <width>91</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+		color:rgb(25, 25, 25);
+		font: 16pt &quot;FONTSPRING DEMO - Grotesco Book&quot;;
+background:transparent;
+}</string>
+     </property>
+     <property name="text">
+      <string> User ID :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>230</y>
+       <width>171</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+		color:rgb(71, 71, 71);
+		font: 18pt &quot;FONTSPRING DEMO - Grotesco Book&quot;;
+background:transparent;
+}</string>
+     </property>
+     <property name="text">
+      <string>Account Details</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label">
+     <property name="geometry">
+      <rect>
+       <x>240</x>
+       <y>50</y>
+       <width>281</width>
+       <height>41</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+		color:rgb(71, 71, 71);
+		font: 22pt &quot;FONTSPRING DEMO - Grotesco Book Bold&quot;;
+background:transparent;
+}</string>
+     </property>
+     <property name="text">
+      <string>Telecomm Deartment</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>280</y>
+       <width>121</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+		color:rgb(25, 25, 25);
+		font: 15pt &quot;FONTSPRING DEMO - Grotesco Book&quot;;
+background:transparent;
+}</string>
+     </property>
+     <property name="text">
+      <string>Telephone ID :</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="label_9">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>400</y>
+       <width>101</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QLabel{
+		color:rgb(25, 25, 25);
+		font: 15pt &quot;FONTSPRING DEMO - Grotesco Book&quot;;
+background:transparent;
+}</string>
+     </property>
+     <property name="text">
+      <string> Amount :</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resources/homeicon.qrc"/>
+ </resources>
+ <connections/>
+</ui>
